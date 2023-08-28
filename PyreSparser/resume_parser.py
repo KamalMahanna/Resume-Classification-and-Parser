@@ -7,6 +7,8 @@ import spacy
 import pprint
 from spacy.matcher import Matcher
 from . import utils
+from spacy.cli import download
+download("en_core_web_sm")
 
 class ResumeParser(object):
 
