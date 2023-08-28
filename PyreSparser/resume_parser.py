@@ -7,12 +7,12 @@ import spacy
 import pprint
 from spacy.matcher import Matcher
 from . import utils
-!python -m spacy download en_core_web_sm
+# !python -m spacy download en_core_web_sm
 
-import en_core_web_sm
+# import en_core_web_sm
 
-# from spacy.cli import download
-# download("en_core_web_sm")
+from spacy.cli import download
+download("en_core_web_sm")
 
 class ResumeParser(object):
 
@@ -23,8 +23,8 @@ class ResumeParser(object):
         skills_file=None,
         custom_regex=None
     ):
-        # nlp = spacy.load('en_core_web_sm')
-        nlp = en_core_web_sm.load()
+        nlp = spacy.load('en_core_web_sm')
+        # nlp = en_core_web_sm.load()
 
 
         custom_nlp = spacy.load(os.path.dirname(os.path.abspath(__file__)))
