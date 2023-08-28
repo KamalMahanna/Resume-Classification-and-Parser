@@ -7,6 +7,7 @@ import spacy
 import pprint
 from spacy.matcher import Matcher
 from . import utils
+!python -m spacy download en_core_web_sm
 
 import en_core_web_sm
 
