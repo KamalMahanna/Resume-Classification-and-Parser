@@ -5,12 +5,12 @@ import pandas as pd
 from Classify_Resume.my_transformer_function import MyTransformer,clean_it
 import nltk
 nltk.download('popular')
-# nltk.data.path.append('/path/to/nltk_data')
+nltk.data.path.append('/path/to/nltk_data')
 
 
 # from sklearn.base import BaseEstimator, TransformerMixin
 # import re
-from nltk.corpus import stopwords
+# from nltk.corpus import stopwords   
 # from nltk.tokenize import word_tokenize
 # from nltk.stem import WordNetLemmatizer
 
