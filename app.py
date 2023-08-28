@@ -4,8 +4,8 @@ from PyreSparser import ResumeParser
 import pandas as pd
 from Classify_Resume.my_transformer_function import MyTransformer,clean_it
 import nltk
-nltk.download('popular')
-nltk.data.path.append('/path/to/nltk_data')
+nltk.download('all')
+# nltk.data.path.append('/path/to/nltk_data')
 
 
 # from sklearn.base import BaseEstimator, TransformerMixin
