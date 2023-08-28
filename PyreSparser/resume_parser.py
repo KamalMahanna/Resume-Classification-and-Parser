@@ -11,8 +11,8 @@ from . import utils
 
 # import en_core_web_sm
 
-from spacy.cli import download
-download("en_core_web_sm")
+# from spacy.cli import download
+# download("en_core_web_sm")
 
 class ResumeParser(object):
 
